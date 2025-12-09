@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app">
+    <h1>🎬 Movie Search App</h1>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search for a movie...">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="moviesContainer" class="movies"></div>
+  </div>
+
+  <!-- Movie Details Popup -->
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <span id="closePopup" class="close">&times;</span>
+      <div id="popupDetails"></div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
