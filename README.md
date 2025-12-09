@@ -1,19 +1,25 @@
 # 🍿 Movie Search App
 
-A simple and clean movie search application built using HTML, CSS, and JavaScript.  
+A simple and clean movie search application built using HTML, CSS, and JavaScript.
 The app fetches movie data from the **OMDb API** and displays details such as the poster, title, year, and rating.
-
----
 
 ## 🚀 Features
 
-- 🔍 Search for any movie by name  
-- 🎬 Displays poster, title, year, and IMDb rating  
-- ⚡ Fetches real movie data using the OMDb API  
-- 📱 Simple and responsive UI  
+- 🔍 Search for any movie by name
+- 🎬 Displays poster, title, year, and IMDb rating
+- ⚡ Fetches real movie data using the OMDb API
+- 📱 Simple and responsive UI
 - ✨ Instant results shown dynamically
 
----
+## 📂 Project Structure
 
+index.html # Main HTML file  
+style.css # Application styling  
+main.js # Logic + API fetching
 
+## 📦 Technologies Used
 
+- HTML5
+- CSS3
+- JavaScript (Fetch API)
+- OMDb API
